@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ResultsComponent } from './results/results.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
+import { TruncatePipe } from './shared/truncate.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     ResultsComponent,
-    MovieCardComponent
+    MovieCardComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule,
