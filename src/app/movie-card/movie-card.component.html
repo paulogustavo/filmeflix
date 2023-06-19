@@ -1,7 +1,7 @@
 <div class="videoCard">
   <img src="{{baseUrl}}{{movie.backdrop_path || movie.poster_path}}" alt="">
-  <p>{{movie.release_date || movie.first_air_date}}</p>
-  <p>{{movie.overview}}</p>
-  <h2>{{movie.title || "No Name Available"}}</h2>
+  <h2>{{movie.title || "No Title Available"}}</h2>
+  <p>Release date: {{movie.release_date || movie.first_air_date}}</p>
+  <p>{{movie.overview | truncate:[60]}}</p>
   <p>Likes: {{movie.vote_count}}</p>
 </div>
