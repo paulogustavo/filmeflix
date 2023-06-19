@@ -1,6 +1,6 @@
 # Filmeflix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4. It's an Angular project that uses the TMDB API to fetch movies' information.
 
 ## Development server
 
